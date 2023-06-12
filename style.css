@@ -1,0 +1,41 @@
+/* change hight - width */
+
+#magical-box {
+          width: 200px;
+          height: 200px;
+          background-color: rgb(61, 61, 71);
+          transition: width 0.3s, height 0.3s;
+}
+
+/* change color */
+#box1 {
+          margin-top: 20px;
+          width: 200px;
+          height: 200px;
+          background-color: #7070d2;
+}
+
+/* change img */
+.box {
+          margin-top: 20px;
+          width: 200px;
+          height: 200px;
+          background-color: #ccc;
+          position: relative;
+          overflow: hidden;
+}
+
+.box .content {
+          display: none;
+}
+
+.box:hover .content {
+          display: block;
+          transition: all 0.5s;
+}
+
+.box .content img,
+.box .content .text {
+          width: 100%;
+          height: 100%;
+}
